@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
+        "projectName": "ElitzurVaidmanBomb",
+        "projectPath": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
+        "packagesPath": "C:\\Users\\pbhadekar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pbhadekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Development.Kit": {
+              "target": "Package",
+              "version": "[0.9.1909.3002, )"
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.9.1909.3002, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
