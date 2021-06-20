@@ -2,7 +2,7 @@
 {
     open Microsoft.Quantum.Diagnostics;
     open Microsoft.Quantum.Canon;
-    open Microsoft.Quantum.Math;
+    open Microsoft.Quantum.Math; 
     open Microsoft.Quantum.Intrinsic;
     
 // prep |+> state
@@ -14,7 +14,7 @@
     }
 
     operation prepareBomb() : Bool {
-        return RandomInt(1) == 0 ;
+        return RandomInt(1) >= 0 ;
     }
 
     operation passThroughBomb(injector : Qubit, bomb : Bool) : Int {
@@ -47,10 +47,10 @@
         // 1 - a bomb
     }
 
-    operation ElitZurVaidmanBomb() : Bool {
+    operation EVBTest() : Bool {
         mutable result = -1 ;
         mutable bomb = false ;
-        using(qubit = Qubit()) {
+        using(qubit = Qubit()){
             PrepareInjectorState(qubit) ;
             set bomb = prepareBomb() ;
             set result = passThroughBomb(qubit, bomb) ;

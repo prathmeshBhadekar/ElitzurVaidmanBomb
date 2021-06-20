@@ -1000,11 +1000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
+      "projectUniqueName": "c:\\Users\\pbhadekar\\Desktop\\Q\\QHash\\2021\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
       "projectName": "ElitzurVaidmanBomb",
-      "projectPath": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
+      "projectPath": "c:\\Users\\pbhadekar\\Desktop\\Q\\QHash\\2021\\ElitzurVaidmanBomb\\ElitzurVaidmanBomb.csproj",
       "packagesPath": "C:\\Users\\pbhadekar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pbhadekar\\Q\\ElitzurVaidmanBomb\\obj\\",
+      "outputPath": "c:\\Users\\pbhadekar\\Desktop\\Q\\QHash\\2021\\ElitzurVaidmanBomb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1048,10 +1048,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
